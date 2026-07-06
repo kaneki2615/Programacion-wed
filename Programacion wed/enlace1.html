@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia - Tokyo Ghoul</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/style.css">
+    
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-danger">
+    <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center text-danger fw-bold" href="index.html">
+            <!-- Si tienes un archivo de logo ej. Logo.png, puedes usar una etiqueta <img> aquí -->
+            <span class="fs-4 me-2">🦅</span> 
+            <div>
+                <span class="d-block lh-1">CCG SYSTEM</span>
+                <span class="text-muted fw-normal" style="font-size: 10px; letter-spacing: 1px;">"Paz y Contramedidas"</span>
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto align-items-center">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="enlace1.html">Multimedia</a></li>
+                <li class="nav-item"><a class="nav-link" href="enlace2.html">Alistamiento</a></li>
+                <li class="nav-item"><a class="nav-link" href="enlace3.html">inspector</a></li>
+                <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+                    <button id="btnToggleTema" class="btn btn-outline-light btn-sm fw-bold">☀️ Modo Claro</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="text-white small fw-bold bg-danger px-2 py-1 rounded shadow-sm">
+    🕒 HORA EN TOKIO: <span id="relojTokio">00:00:00</span>
+</div>
+
+
+
+    <div class="container my-5">
+        
+        <h1 class="text-center mb-5 text-uppercase">Zona Multimedia</h1>
+
+        <div class="row g-4 align-items-center mb-5">
+            <div class="col-md-6 text-center">
+                <h3 class="mb-3">🎧 Banda Sonora (BGM)</h3>
+                <p class="text-muted small">Escucha el tema principal oficial de la serie.</p>
+                <audio controls class="shadow-sm">
+                    <source src="musica/unravel東京喰種TV Animation 10th Anniversary Collaboration MV.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+            </div>
+            
+            <div class="col-md-6 text-center">
+                <h3 class="mb-3">🎬 Clip de Video</h3>
+                <div class="ratio ratio-16x9 mx-auto" style="max-width: 500px;">
+                    <video src="musica/YTDown_YouTube_Tokyo-Ghoul-Opening-Unravel-by-TK-from-L_Media_7aMOurgDB-o_006_144p.mp4" controls></video>
+                </div>
+            </div>
+        </div>
+
+        <hr class="border-secondary my-5">
+
+        <h2 class="mb-4">🖼️ Galería del Distrito 20</h2>
+        <div id="carruselMultimedia" class="carousel slide shadow rounded overflow-hidden mb-5 mx-auto" data-bs-ride="carousel" style="max-width: 700px;">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagen/Kaneki.jfif" class="d-block w-100" alt="Kaneki" style="height: 350px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagen/Ken Kaneki.jfif" class="d-block w-100" alt="Ken Kaneki" style="height: 350px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagen/Ken Kaneki.jpeg" class="d-block w-100" alt="Modo Kakuja" style="height: 350px; object-fit: cover;">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carruselMultimedia" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carruselMultimedia" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+
+        <hr class="border-secondary my-5">
+
+        <h2 class="mb-4">⚡ Fichas Técnicas de Audio</h2>
+        <div class="row g-4 mb-5">
+            <div class="col-md-6">
+                <div class="card bg-dark text-light border-secondary shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Opening Theme: "Unravel"</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Interpretado por TK from Ling Tosite Sigure</h6>
+                        <p class="card-text text-secondary small">Lanzado en 2014, se convirtió en un fenómeno global debido a su intensa instrumentación de rock progresivo y su letra, la cual captura a la perfección la desesperación y locura psicológica de Ken Kaneki.</p>
+                        <span class="badge bg-danger">Tema Principal</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card bg-dark text-light border-secondary shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Composición del Soundtrack</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">A cargo de Yutaka Yamada</h6>
+                        <p class="card-text text-secondary small">La música de fondo utiliza orquestaciones trágicas mezcladas con elementos electrónicos industriales para ambientar las persecuciones de las palomas de la CCG y las batallas crudas en los distritos de Tokio.</p>
+                        <span class="badge bg-secondary">Banda Sonora</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="border-secondary my-5">
+
+        <h2 class="mb-4">📌 De que trata la cancion </h2>
+        <div class="accordion accordion-flush border border-secondary rounded overflow-hidden mb-5" id="acordionMultimedia">
+            <div class="accordion-item bg-dark text-light">
+                <h2 class="accordion-header" id="headerAudio">
+                    <button class="accordion-button bg-dark text-danger fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAudio" aria-expanded="false" aria-controls="collapseAudio">
+                        ¿Que refleja el tema?
+                    </button>
+                </h2>
+                <div id="collapseAudio" class="accordion-collapse collapse" aria-labelledby="headerAudio" data-bs-parent="#acordionMultimedia">
+                    <div class="accordion-body text-light bg-dark small">
+                        El tema refleja una profunda crisis de identidad y el terror a convertirse en un monstruo en un mundo distorsionado. A través de versos melancólicos, la canción funciona como un mecanismo de autodefensa y una súplica hacia sus seres queridos para que lo recuerden como el chico humano que solía ser antes del trágico accidente, evidenciando la imposibilidad de volver atrás tras el cambio.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item bg-dark text-light">
+                <h2 class="accordion-header" id="headerVideo">
+                    <button class="accordion-button bg-dark text-danger fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVideo" aria-expanded="false" aria-controls="collapseVideo">
+                        ¿Que expresa?
+                    </button>
+                </h2>
+                <div id="collapseVideo" class="accordion-collapse collapse" aria-labelledby="headerVideo" data-bs-parent="#acordionMultimedia">
+                    <div class="accordion-body text-light bg-dark small">
+                        Expresa la esencia emocional y el mensaje central de una composición. A través de la combinación de melodía, armonía y letra, transmite vivencias, sentimientos profundos, estados de ánimo o ideas complejas que conectan directamente con la empatía y la experiencia de quien la escucha.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="text-center mt-5">
+            <a href="index.html" class="btn btn-outline-light btn-sm me-2">Vuelve al Inicio</a>
+            <a href="enlace2.html" class="btn btn-outline-danger btn-sm">Ver Mapa Geográfico</a>
+        </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script></body>
+</html>
